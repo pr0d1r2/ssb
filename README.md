@@ -1,6 +1,6 @@
 ### About
 
-A Gmail site-specific browser (SSB) by node-webkit.
+Auto-build your own SSBs with node-webkit.
 
 ### Dependencies
 
@@ -9,6 +9,7 @@ A Gmail site-specific browser (SSB) by node-webkit.
 
 ### Getting Started
 
-1. Run `grunt`
-2. Open Gmail.app in release folder
-
+1. Run `npm install`
+2. Run `grunt`
+3. Open `webkitbuilds/releases/` and find your apps in their respective folders
+4. Copy to `/Applications` or wherever and enjoy!

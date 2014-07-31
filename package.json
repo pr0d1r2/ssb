@@ -1,0 +1,12 @@
+{
+  "name": "SSB",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-node-webkit-builder": "^0.1.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:simko-io/ssb.git"
+  }
+}
