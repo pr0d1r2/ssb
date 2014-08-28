@@ -39,6 +39,32 @@ module.exports = function(grunt) {
             credits: './harvest-src/credits.html'
         },
         src: ['./harvest-src/**/*']
+      },
+      trello: {
+        options: {
+            build_dir: './webkitbuilds',
+            mac: true,
+            win: false,
+            linux32: false,
+            linux64: false,
+            mac_icns: './trello-src/icon.icns',
+            zip: true,
+            credits: './trello-src/credits.html'
+        },
+        src: ['./trello-src/**/*']
+      },
+      stripe: {
+        options: {
+            build_dir: './webkitbuilds',
+            mac: true,
+            win: false,
+            linux32: false,
+            linux64: false,
+            mac_icns: './stripe-src/icon.icns',
+            zip: true,
+            credits: './stripe-src/credits.html'
+        },
+        src: ['./stripe-src/**/*']
       }
     },
   });

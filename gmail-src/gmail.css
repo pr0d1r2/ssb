@@ -1,0 +1,17 @@
+/*
+  ===================
+  A Vitamin for Gmail
+  ===================
+*/
+
+/* Fix email post spacing */
+
+.hx .adf.ads .gs,
+.hx .adn.ads .gs {
+  margin-left: 0 !important;
+}
+
+/* Fixing footer issues */
+
+.ma { margin-top: 10px; }
+.mb { display: none !important; }

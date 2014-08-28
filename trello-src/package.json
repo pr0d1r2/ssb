@@ -1,0 +1,17 @@
+{
+  "name": "Trello",
+  "version": "1.0",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "frame": true,
+    "width": 1530,
+    "height": 900,
+    "position": "middle",
+    "icon": "icon.png"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-node-webkit-builder": "~0.1.21"
+  }
+}
