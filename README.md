@@ -9,7 +9,10 @@ Auto-build your own SSBs with node-webkit.
 
 ### Getting Started
 
-1. Run `npm install`
-2. Run `grunt`
-3. Open `webkitbuilds/releases/` and find your apps in their respective folders
-4. Copy to `/Applications` or wherever and enjoy!
+1. Run `brew install npm`
+2. Run `npm install -g grunt-cli`
+3. Run `npm install grunt --save-dev`
+4. Run `npm install`
+5. Run `grunt`
+6. Open `webkitbuilds/releases/` and find your apps in their respective folders
+7. Copy to `/Applications` or wherever and enjoy!
