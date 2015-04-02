@@ -40,6 +40,19 @@ module.exports = function(grunt) {
         },
         src: ['./harvest-src/**/*']
       },
+      mbank: {
+        options: {
+            build_dir: './webkitbuilds',
+            mac: true,
+            win: false,
+            linux32: false,
+            linux64: false,
+            mac_icns: './mbank-src/icon.icns',
+            zip: true,
+            credits: './mbank-src/credits.html'
+        },
+        src: ['./mbank-src/**/*']
+      },
       trello: {
         options: {
             build_dir: './webkitbuilds',
